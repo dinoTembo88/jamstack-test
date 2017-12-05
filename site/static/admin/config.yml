@@ -21,6 +21,5 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Name of Item", name: "title", widget: "string"}
-      - {label: "Supported Meals", name: "categories", widget: "list", default: ["alko", "non-alko"]}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Price", name: "price", widget: "string"}
